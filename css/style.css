@@ -168,12 +168,16 @@ header {
 .hero {
     background-color: var(--bgd-color);
     text-align: center;
-    padding: 200px;
     background-image:linear-gradient(rgba(47, 48, 58, 0.4),
             rgba(47, 48, 58, 0.4)), url(../img/Img.jpg);
         margin: auto;
         background-repeat: no-repeat;
         width: 1600px;
+        height: 600px;
+}
+
+.hero-container{
+    margin: 120px 250px;
 }
 
 .header-hero {
@@ -270,7 +274,7 @@ header {
 }
 
 .team-containt{
-    padding:30px;}
+    margin:30px;}
 
 .team-name {
     font-weight: 500;
@@ -335,6 +339,10 @@ header {
 .clients{
     padding-top: 94px;
     padding-bottom: 94px;
+}
+
+.clients-container{
+    
 }
 
 .client-list{
@@ -430,7 +438,7 @@ address {
 
 .footer-container{
     display: flex;
-    gap: 70px;
+    align-items: baseline;
 }
 
 .footer-soc {
